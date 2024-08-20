@@ -12,6 +12,8 @@ import.meta.env
 const MODEL_NAME = "gemini-1.0-pro";
 const API_KEY = import.meta.env.VITE_TEST_VAR;
 
+//console.log(API_KEY);
+
 
 async function runChat(prompt) {
 
